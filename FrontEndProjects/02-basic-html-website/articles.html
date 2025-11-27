@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Basic HTML Website</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta
+      name="description"
+      content="Maxime Maguet's portfolio, a Frontend Developer specialized in HTML, CSS, and JavaScript. Discover my projects and experience."
+    />
+    <meta property="og:title" content="Maxime Maguet | Frontend Developer" />
+    <meta
+      property="og:description"
+      content="Explore my web development projects and experience."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-container">
+        <div class="author-identity">
+          <img
+            src="favicon.png"
+            alt="photo de Maxime Maguet"
+            class="author-identity-photo"
+          />
+          <p class="author-identity-name">Maxime Maguet</p>
+        </div>
+
+        <div class="site-header__hero">
+          <h1>Frontend Developer</h1>
+        </div>
+      </div>
+
+      <nav class="main-nav">
+        <div class="main-nav__list">
+          <ul>
+            <li class="home"><a href="index.html">Home</a></li>
+            <li class="projects"><a href="projects.html">Projects</a></li>
+            <li class="Articles"><a href="articles.html">Articles</a></li>
+            <li class="contact"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="articles" class="article-grid">
+        <h2>Latest Blog Posts</h2>
+
+        <article class="article-teaser">
+          <h3>
+            <a href="article1.html">The Importance of Semantic HTML</a>
+          </h3>
+          <p>
+            <strong>Snippet/Teaser:</strong> Dive into why using the right HTML
+            tags isn't just good practice—it's essential for accessibility and
+            search engine optimization.
+          </p>
+        </article>
+        <article class="article-teaser">
+          <h3>
+            <a href="article2.html"
+              >Quick Tip: Using Relative vs. Absolute Paths</a
+            >
+          </h3>
+          <p>
+            <strong>Snippet/Teaser: </strong>A brief explanation of when and how
+            to use relative paths (e.g., ../images/photo.jpg) and when you might
+            need an absolute path (https://www.example.com/images/photo.jpg) for
+            linking resources.
+          </p>
+        </article>
+        <article class="article-teaser">
+          <h3>
+            <a href="article3.html">My First Experience Building a Website</a>
+          </h3>
+          <p>
+            <strong>Snippet/Teaser: </strong> Share a personal, fictional
+            journey about the challenges and triumphs of completing your first
+            basic HTML website. Keep it short and relatable.
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
+  <footer class="footer-content">
+    <small> &copy;all rights reserved 2025</small>
+  </footer>
+</html>

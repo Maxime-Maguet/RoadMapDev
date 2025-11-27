@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Basic HTML Website</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta
+      name="description"
+      content="Maxime Maguet's portfolio, a Frontend Developer specialized in HTML, CSS, and JavaScript. Discover my projects and experience."
+    />
+    <meta property="og:title" content="Maxime Maguet | Frontend Developer" />
+    <meta
+      property="og:description"
+      content="Explore my web development projects and experience."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="style.css" />
+    <meta />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="header-container">
+        <div class="author-identity">
+          <img
+            src="favicon.png"
+            alt="photo de Maxime Maguet"
+            class="author-identity-photo"
+          />
+          <p class="author-identity-name">Maxime Maguet</p>
+        </div>
+
+        <div class="site-header__hero">
+          <h1>Frontend Developer</h1>
+        </div>
+
+        <nav class="main-nav">
+          <div class="main-nav__list">
+            <ul>
+              <li class="home"><a href="index.html">Home</a></li>
+              <li class="projects"><a href="projects.html">Projects</a></li>
+              <li class="Articles"><a href="articles.html">Articles</a></li>
+              <li class="contact"><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="contact-info" class="contact-section">
+        <h2>Get in Touch</h2>
+        <p>
+          I'm always open to discussing new projects, creative ideas, or
+          opportunities to be part of your vision. Feel free to reach out using
+          the methods below.
+        </p>
+
+        <address class="contact-information">
+          <h3>Contact Information Section:</h3>
+
+          <p>
+            Email:
+            <a href="mailto:maxime.maguet@gmail.com">Maxime.maguet@gmail.com</a>
+          </p>
+
+          <p>Phone: <a href="tel:0630772756">+33630772756</a></p>
+        </address>
+
+        <div class="SocialMedia-links">
+          <h3>Social Media Links</h3>
+          <a href="https://www.linkedin.com/in/maxime-maguet-78ba4217b/"
+            >Linkedin</a
+          >
+          <a href="https://github.com/Maxime-Maguet">GitHub</a>
+        </div>
+
+        <div class="form-wrapper">
+          <h3>Send Me a Message</h3>
+          <form
+            action="#"
+            method="post"
+            autocomplete="off"
+            class="contact-form"
+          >
+            <div class="form-group">
+              <label for="user-name">Name: </label>
+              <input
+                type="text"
+                id="user-name"
+                name="name"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="user-email">Email: </label>
+              <input
+                type="email"
+                name="Email"
+                id="user-email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">subject: </label>
+              <input
+                type="text"
+                name="email_subject"
+                id="subject"
+                placeholder="Your subject"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="user-message">Message: </label>
+              <textarea
+                name="message"
+                id="user-message"
+                placeholder="Your message"
+                rows="10"
+                cols="50"
+                maxlength="140"
+              ></textarea>
+            </div>
+
+            <div class="form-group">
+              <button type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
